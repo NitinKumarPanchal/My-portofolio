@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "Nitin Panchal",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/np-white.png",
+    "logo_white": "/images/np-black.png",
+    "logo_width": "150",
+    "logo_height": "39",
+    "logo_text": "Geeky"
+  },
+  "settings": {
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 6,
+    "InnerPaginationOptions": {
+      "enableTop": false,
+      "enableBottom": true
+    },
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+  "params": {
+    "tag_manager_id": "",
+    "footer_content": "I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.",
+    "copyright": "Designed and Developed By Nitin Panchal"
+  },
+  "metadata": {
+    "meta_author": "Nitin Panchal",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Geeky Nextjs Personal Blog Template"
+  },
+  "widgets": {
+    "about": {
+      "enable": true,
+      "content": "I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards."
+    },
+    "featured_posts": {
+      "enable": true,
+      "title": "Blog Categories",
+      "showPost": 3
+    },
+    "categories": {
+      "enable": true,
+      "title": "Blog Categories"
+    },
+    "newsletter": {
+      "enable": true,
+      "title": "Newsletter",
+      "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
+      "privacy_policy_page": "#",
+      "malichipm_url": ""
+    }
+  },
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  }
+}

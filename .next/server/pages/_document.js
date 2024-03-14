@@ -1,0 +1,96 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_document";
+exports.ids = ["pages/_document"];
+exports.modules = {
+
+/***/ "./layouts/components/TwSizeIndicator.js":
+/*!***********************************************!*\
+  !*** ./layouts/components/TwSizeIndicator.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst TwSizeIndicator = ()=>{\n    if (true) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"fixed top-0 left-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                    className: \"block sm:hidden\",\n                    children: \"all\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n                    lineNumber: 5,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                    className: \"hidden sm:block md:hidden\",\n                    children: \"sm\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n                    lineNumber: 6,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                    className: \"hidden md:block lg:hidden\",\n                    children: \"md\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                    className: \"hidden lg:block xl:hidden\",\n                    children: \"lg\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                    className: \"hidden xl:block 2xl:hidden\",\n                    children: \"xl\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n                    lineNumber: 9,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                    className: \"hidden 2xl:block\",\n                    children: \"2xl\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n                    lineNumber: 10,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\layouts\\\\components\\\\TwSizeIndicator.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, undefined);\n    } else {}\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TwSizeIndicator);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9sYXlvdXRzL2NvbXBvbmVudHMvVHdTaXplSW5kaWNhdG9yLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQSxNQUFNQSxrQkFBa0I7SUFDdEIsSUFBSUMsSUFBc0MsRUFBRTtRQUMxQyxxQkFDRSw4REFBQ0M7WUFBSUMsV0FBVTs7OEJBQ2IsOERBQUNDO29CQUFLRCxXQUFVOzhCQUFrQjs7Ozs7OzhCQUNsQyw4REFBQ0M7b0JBQUtELFdBQVU7OEJBQTRCOzs7Ozs7OEJBQzVDLDhEQUFDQztvQkFBS0QsV0FBVTs4QkFBNEI7Ozs7Ozs4QkFDNUMsOERBQUNDO29CQUFLRCxXQUFVOzhCQUE0Qjs7Ozs7OzhCQUM1Qyw4REFBQ0M7b0JBQUtELFdBQVU7OEJBQTZCOzs7Ozs7OEJBQzdDLDhEQUFDQztvQkFBS0QsV0FBVTs4QkFBbUI7Ozs7Ozs7Ozs7OztJQUd6QyxPQUFPLEVBRU47QUFDSDtBQUNBLGlFQUFlSCxlQUFlQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dC10YWlsd2luZC1ib2lsZXJwbGF0ZS8uL2xheW91dHMvY29tcG9uZW50cy9Ud1NpemVJbmRpY2F0b3IuanM/YzNlYiJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBUd1NpemVJbmRpY2F0b3IgPSAoKSA9PiB7XG4gIGlmIChwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gXCJkZXZlbG9wbWVudFwiKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZml4ZWQgdG9wLTAgbGVmdC0wIHotNTAgZmxleCB3LVszMHB4XSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctZ3JheS0yMDAgcHktWzIuNXB4XSB0ZXh0LVsxMnB4XSB1cHBlcmNhc2UgdGV4dC1ibGFjayBzbTpiZy1yZWQtMjAwIG1kOmJnLXllbGxvdy0yMDAgbGc6YmctZ3JlZW4tMjAwIHhsOmJnLWJsdWUtMjAwIDJ4bDpiZy1waW5rLTIwMFwiPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJibG9jayBzbTpoaWRkZW5cIj5hbGw8L3NwYW4+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImhpZGRlbiBzbTpibG9jayBtZDpoaWRkZW5cIj5zbTwvc3Bhbj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiaGlkZGVuIG1kOmJsb2NrIGxnOmhpZGRlblwiPm1kPC9zcGFuPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJoaWRkZW4gbGc6YmxvY2sgeGw6aGlkZGVuXCI+bGc8L3NwYW4+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImhpZGRlbiB4bDpibG9jayAyeGw6aGlkZGVuXCI+eGw8L3NwYW4+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImhpZGRlbiAyeGw6YmxvY2tcIj4yeGw8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9IGVsc2Uge1xuICAgIHJldHVybiBudWxsO1xuICB9XG59O1xuZXhwb3J0IGRlZmF1bHQgVHdTaXplSW5kaWNhdG9yO1xuIl0sIm5hbWVzIjpbIlR3U2l6ZUluZGljYXRvciIsInByb2Nlc3MiLCJkaXYiLCJjbGFzc05hbWUiLCJzcGFuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./layouts/components/TwSizeIndicator.js\n");
+
+/***/ }),
+
+/***/ "./pages/_document.js":
+/*!****************************!*\
+  !*** ./pages/_document.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_TwSizeIndicator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/TwSizeIndicator */ \"./layouts/components/TwSizeIndicator.js\");\n/* harmony import */ var _config_config_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @config/config.json */ \"./config/config.json\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nconst Document = ()=>{\n    // destructuring items from config object\n    const { favicon } = _config_config_json__WEBPACK_IMPORTED_MODULE_2__.site;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_3__.Html, {\n        lang: \"en\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_3__.Head, {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: favicon\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"theme-name\",\n                        content: \"geeky-nextjs\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"msapplication-TileColor\",\n                        content: \"#000000\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 15,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"theme-color\",\n                        media: \"(prefers-color-scheme: light)\",\n                        content: \"#fff\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"theme-color\",\n                        media: \"(prefers-color-scheme: dark)\",\n                        content: \"#000\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_3__.Main, {}, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 28,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_TwSizeIndicator__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 29,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_3__.NextScript, {}, void 0, false, {\n                        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Nitin\\\\My-Project\\\\My-portofolio\\\\pages\\\\_document.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Document);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fZG9jdW1lbnQuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBMEQ7QUFDakI7QUFDb0I7QUFFN0QsTUFBTU0sV0FBVztJQUNmLHlDQUF5QztJQUN6QyxNQUFNLEVBQUVDLE9BQU8sRUFBRSxHQUFHTixxREFBVztJQUMvQixxQkFDRSw4REFBQ0UsK0NBQUlBO1FBQUNNLE1BQUs7OzBCQUNULDhEQUFDUCwrQ0FBSUE7O2tDQUVILDhEQUFDUTt3QkFBS0MsS0FBSTt3QkFBZ0JDLE1BQU1MOzs7Ozs7a0NBRWhDLDhEQUFDTTt3QkFBS0MsTUFBSzt3QkFBYUMsU0FBUTs7Ozs7O2tDQUNoQyw4REFBQ0Y7d0JBQUtDLE1BQUs7d0JBQTBCQyxTQUFROzs7Ozs7a0NBQzdDLDhEQUFDRjt3QkFDQ0MsTUFBSzt3QkFDTEUsT0FBTTt3QkFDTkQsU0FBUTs7Ozs7O2tDQUVWLDhEQUFDRjt3QkFDQ0MsTUFBSzt3QkFDTEUsT0FBTTt3QkFDTkQsU0FBUTs7Ozs7Ozs7Ozs7OzBCQUdaLDhEQUFDRTs7a0NBQ0MsOERBQUNiLCtDQUFJQTs7Ozs7a0NBQ0wsOERBQUNKLG1FQUFlQTs7Ozs7a0NBQ2hCLDhEQUFDSyxxREFBVUE7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSW5CO0FBRUEsaUVBQWVDLFFBQVFBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LXRhaWx3aW5kLWJvaWxlcnBsYXRlLy4vcGFnZXMvX2RvY3VtZW50LmpzPzUzOGIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFR3U2l6ZUluZGljYXRvciBmcm9tIFwiQGNvbXBvbmVudHMvVHdTaXplSW5kaWNhdG9yXCI7XG5pbXBvcnQgY29uZmlnIGZyb20gXCJAY29uZmlnL2NvbmZpZy5qc29uXCI7XG5pbXBvcnQgeyBIZWFkLCBIdG1sLCBNYWluLCBOZXh0U2NyaXB0IH0gZnJvbSBcIm5leHQvZG9jdW1lbnRcIjtcblxuY29uc3QgRG9jdW1lbnQgPSAoKSA9PiB7XG4gIC8vIGRlc3RydWN0dXJpbmcgaXRlbXMgZnJvbSBjb25maWcgb2JqZWN0XG4gIGNvbnN0IHsgZmF2aWNvbiB9ID0gY29uZmlnLnNpdGU7XG4gIHJldHVybiAoXG4gICAgPEh0bWwgbGFuZz1cImVuXCI+XG4gICAgICA8SGVhZD5cbiAgICAgICAgey8qIGZhdmljb24gKi99XG4gICAgICAgIDxsaW5rIHJlbD1cInNob3J0Y3V0IGljb25cIiBocmVmPXtmYXZpY29ufSAvPlxuICAgICAgICB7LyogdGhlbWUgbWV0YSAqL31cbiAgICAgICAgPG1ldGEgbmFtZT1cInRoZW1lLW5hbWVcIiBjb250ZW50PVwiZ2Vla3ktbmV4dGpzXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cIm1zYXBwbGljYXRpb24tVGlsZUNvbG9yXCIgY29udGVudD1cIiMwMDAwMDBcIiAvPlxuICAgICAgICA8bWV0YVxuICAgICAgICAgIG5hbWU9XCJ0aGVtZS1jb2xvclwiXG4gICAgICAgICAgbWVkaWE9XCIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KVwiXG4gICAgICAgICAgY29udGVudD1cIiNmZmZcIlxuICAgICAgICAvPlxuICAgICAgICA8bWV0YVxuICAgICAgICAgIG5hbWU9XCJ0aGVtZS1jb2xvclwiXG4gICAgICAgICAgbWVkaWE9XCIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspXCJcbiAgICAgICAgICBjb250ZW50PVwiIzAwMFwiXG4gICAgICAgIC8+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8Ym9keT5cbiAgICAgICAgPE1haW4gLz5cbiAgICAgICAgPFR3U2l6ZUluZGljYXRvciAvPlxuICAgICAgICA8TmV4dFNjcmlwdCAvPlxuICAgICAgPC9ib2R5PlxuICAgIDwvSHRtbD5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IERvY3VtZW50O1xuIl0sIm5hbWVzIjpbIlR3U2l6ZUluZGljYXRvciIsImNvbmZpZyIsIkhlYWQiLCJIdG1sIiwiTWFpbiIsIk5leHRTY3JpcHQiLCJEb2N1bWVudCIsImZhdmljb24iLCJzaXRlIiwibGFuZyIsImxpbmsiLCJyZWwiLCJocmVmIiwibWV0YSIsIm5hbWUiLCJjb250ZW50IiwibWVkaWEiLCJib2R5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_document.js\n");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
+/*!**********************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "./config/config.json":
+/*!****************************!*\
+  !*** ./config/config.json ***!
+  \****************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"site":{"title":"Nitin Panchal","base_url":"/","favicon":"/images/favicon.png","logo":"/images/np-white.png","logo_white":"/images/np-black.png","logo_width":"150","logo_height":"39","logo_text":"Geeky"},"settings":{"theme_switcher":true,"default_theme":"system","pagination":6,"InnerPaginationOptions":{"enableTop":false,"enableBottom":true},"summary_length":200,"blog_folder":"posts"},"params":{"tag_manager_id":"","footer_content":"I\'m passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.","copyright":"Designed and Developed By Nitin Panchal"},"metadata":{"meta_author":"Nitin Panchal","meta_image":"/images/og-image.png","meta_description":"Geeky Nextjs Personal Blog Template"},"widgets":{"about":{"enable":true,"content":"I\'m passionate about creating great user experiences and have a strong understanding of usability and accessibility standards."},"featured_posts":{"enable":true,"title":"Blog Categories","showPost":3},"categories":{"enable":true,"title":"Blog Categories"},"newsletter":{"enable":true,"title":"Newsletter","content":"Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!","privacy_policy_page":"#","malichipm_url":""}},"disqus":{"enable":true,"shortname":"themefisher-template","settings":{}}}');
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("./pages/_document.js")));
+module.exports = __webpack_exports__;
+
+})();
