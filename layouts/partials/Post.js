@@ -64,11 +64,18 @@ const Post = ({ post }) => {
       </ul>
       <p>{post.content.slice(0, Number(summary_length))}</p>
       <Link
+        className="btn btn-outline-primary mt-4 mr-2"
+        href={`https://boat-web-application.vercel.app/dashboard`}
+      >
+        Live Demo
+      </Link>
+      <Link
         className="btn btn-outline-primary mt-4"
         href={`/${blog_folder}/${post.slug}`}
       >
         Read More
       </Link>
+
     </div>
   );
 };

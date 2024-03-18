@@ -18,9 +18,9 @@ Node.js—server-side JavaScript runtime environment
 
 ## This Project covered
 
-In this tutorial, we'll build a RESTful API that implements the CRUD (Create, Read, Update, Delete) operations for an employee. For data persistence, we'll be using a MongoDB Atlas cluster.
+In this tutorial, we'll build a RESTful API that implements the CRUD (Create, Read, Update, Delete) operations for an product. For data persistence, we'll be using a MongoDB Atlas cluster.
 
-We'll be building an employee management web application. The interface will have the following pages:
+We'll be building an product management web application. The interface will have the following pages:
 
 - View all Product
 - Add to Product
@@ -42,7 +42,7 @@ _Orders page_
 _Estimated Delivery_
 ![alter-text](/images/post/post-5.png)
 
-_Delivered page_ 
+_Delivered page_
 ![alter-text](/images/post/post-6.png)
 
 _Download Invoice page_
@@ -51,8 +51,8 @@ _Download Invoice page_
 _View Invoice page_
 ![alter-text](/images/post/post-8.png)
 
+[Live Demo](https://boat-web-application.vercel.app/dashboard)
+
 _Conclusion_
 
 Thank you for joining me on this journey and following along! I hope you enjoyed it and learned a lot. The MEAN stack makes it easy to get started and to build scalable applications. You're using the same language throughout the stack: JavaScript. Additionally, MongoDB's document model makes it natural to map data to objects and MongoDB Atlas's forever-free cluster makes it easy to host your data without worrying about costs.
-
-

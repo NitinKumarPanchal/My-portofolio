@@ -7,9 +7,9 @@ education:
   title: Formal Education
   degrees:
     - university: "B.E. in Computer Engineering"
-      content: "1985 • 1991 • Im graduated from Government Engineering College Patan with first class distinction."
+      content: "• Im graduated from Government Engineering College Patan with first class distinction in 2022."
     - university: "Diploma in Computer Engineering"
-      content: "1985 • 1991 • Im graduated from K.D. Polytechnic College Patan with first class distinction."
+      content: "• Im graduated from K.D. Polytechnic College Patan with first class distinction in 2019."
 
 experience:
   title: Skills
