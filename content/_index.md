@@ -26,6 +26,6 @@ recent_posts:
 
 cv_download:
   title: Download CV
-  link: /documents/cv.pdf
+  link: /documents/my-cv-2024.pdf
 
 ---
