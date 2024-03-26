@@ -2,7 +2,7 @@
 banner:
   title: Welcome **!**
   title_small: "to Nitin Panchal's Blog"
-  content: Are Developer and recently started made website to ensure presence wants to develop.
+  content: Are Developer and recently started design, development, testing, and maintenance of software applications to ensure presence wants to develop.
   image_enable: true
   image: /images/banner-author.png
   button:

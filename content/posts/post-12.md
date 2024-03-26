@@ -1,5 +1,5 @@
 ---
-title: "This is the cloned BOAT LIFE STYLE project using MEAN stack"
+title: "This is the clone BOAT LIFE STYLE project using MEAN stack"
 date: 2023-04-04T12:00:00Z
 image: /images/post/post-4.png
 categories: ["github"]
