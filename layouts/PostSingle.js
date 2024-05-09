@@ -40,10 +40,10 @@ const PostSingle = ({
       <section className="section single-blog">
         <div className="container">
           <div className="row">
-          <h1 class="lg:text-[42px] mb-10">This is the cloned BOAT LIFE STYLE project using MEAN stack</h1>
-          <video autoPlay muted loop style={{ width: "100%", height: '100%', marginBottom:"50px",padding:"10px" }}>
-          <source src="/images/post/Boat-Demo.mp4" />
-        </video>
+            <h1 class="lg:text-[42px] mb-10">This is the cloned BOAT LIFE STYLE project using MEAN stack</h1>
+            <video autoPlay muted loop style={{ width: "100%", height: '100%', marginBottom: "50px", padding: "10px" }}>
+              <source src="/images/post/Boat-Demo.mp4" />
+            </video>
             <div>
               <article>
                 {config.settings.InnerPaginationOptions.enableTop && (
@@ -51,7 +51,6 @@ const PostSingle = ({
                     <InnerPagination posts={posts} date={date} />
                   </div>
                 )}
-                {/* {markdownify(title, "h1", "lg:text-[42px]")} */}
                 <ul className="flex items-center space-x-4">
                   <li>
                     <Link
@@ -70,26 +69,11 @@ const PostSingle = ({
                 <div className="content mb-16">
                   <MDXRemote {...mdxContent} components={shortcodes} />
                 </div>
-                {/* {config.settings.InnerPaginationOptions.enableBottom && (
-                  <InnerPagination posts={posts} date={date} />
-                )} */}
               </article>
             </div>
 
           </div>
         </div>
-
-        {/* Related posts */}
-        {/* <div className="container mt-20">
-          <h2 className="section-title">Related Posts</h2>
-          <div className="row mt-16">
-            {relatedPosts.slice(0, 3).map((post, index) => (
-              <div key={"post-" + index} className="mb-12 lg:col-4">
-                <Post post={post} />
-              </div>
-            ))}
-          </div>
-        </div> */}
       </section>
     </Base>
   );

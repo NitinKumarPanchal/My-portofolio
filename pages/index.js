@@ -10,7 +10,7 @@ import dateFormat from "@lib/utils/dateFormat";
 import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
-import { FaRegCalendar } from "react-icons/fa";
+import { FaRegCalendar, FaUserAlt } from "react-icons/fa";
 const { blog_folder, pagination } = config.settings;
 
 const Home = ({
@@ -20,7 +20,7 @@ const Home = ({
   recent_posts,
   categories,
   promotion,
-  cv_download
+  cv_download,
 }) => {
   // define state
   const sortPostByDate = sortByDate(posts);
@@ -44,7 +44,13 @@ const Home = ({
 
         <div className="container">
           <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
-            <div className={banner.image_enable ? "mt-12 text-center lg:mt-0 lg:text-left lg:col-6" : "mt-12 text-center lg:mt-0 lg:text-left lg:col-12"}>
+            <div
+              className={
+                banner.image_enable
+                  ? "mt-12 text-center lg:col-6 lg:mt-0 lg:text-left"
+                  : "mt-12 text-center lg:col-12 lg:mt-0 lg:text-left"
+              }
+            >
               <div className="banner-title">
                 {markdownify(banner.title, "h1")}
                 {markdownify(banner.title_small, "span")}
@@ -61,7 +67,7 @@ const Home = ({
               )}
               {banner.button.enable && (
                 <Link
-                  className="btn btn-primary mt-6 ml-3"
+                  className="btn btn-primary ml-3 mt-6"
                   href={cv_download.link}
                   download
                 >
@@ -89,7 +95,7 @@ const Home = ({
       <section className="section">
         <div className="container">
           <div className="row items-start">
-            <div className="mb-12 lg:mb-0 lg:col-8">
+            <div className="mb-12 lg:col-8 lg:mb-0">
               {/* Featured posts */}
               {featured_posts.enable && (
                 <div className="section">
@@ -98,6 +104,62 @@ const Home = ({
                     <div className="row">
                       <div>
                         <Post post={featuredPosts[0]} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-7 rounded border border-border p-6 dark:border-darkmode-border">
+                    <div className="row">
+                      <div className="post">
+                        <div className="relative">
+                          <video
+                            autoPlay
+                            muted
+                            loop
+                            style={{ width: "100%", height: "100%" }}
+                          >
+                            <source src="/images/post/GSRTC-demo.mp4" />
+                          </video>
+                        </div>
+                        <h3 className="h5 mb-2 mt-4">
+                          <Link
+                            href={`https://gsrtc-app.vercel.app/admin/default`}
+                            className="block hover:text-primary"
+                          >
+                            {"GSRTC ticket booking app using React.js"}
+                          </Link>
+                        </h3>
+                        <ul className="flex items-center space-x-4">
+                          <li>
+                            <Link
+                              className="inline-flex items-center font-secondary text-xs leading-3"
+                              href="/about"
+                            >
+                              <FaUserAlt className="mr-1.5" />
+                              {"Nitin Panchal"}
+                            </Link>
+                          </li>
+                          <li className="inline-flex items-center font-secondary text-xs leading-3">
+                            <FaRegCalendar className="mr-1.5" />
+                            {"05/09/2024"}
+                          </li>
+                        </ul>
+                        <p>
+                          {
+                            "Applications built with the React js  follow the client-server architecture. The client, built with React, can be a web application, or a desktop application."
+                          }
+                        </p>
+                        <Link
+                          className="btn btn-outline-primary mr-2 mt-4"
+                          href={`https://gsrtc-app.vercel.app/admin/default`}
+                        >
+                          Live Demo
+                        </Link>
+                        <Link
+                          className="btn btn-outline-primary mt-4"
+                          href={`https://gsrtc-app.vercel.app/admin/default`}
+                        >
+                          Read More
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -123,7 +185,8 @@ export default Home;
 export const getStaticProps = async () => {
   const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
-  const { banner, featured_posts, recent_posts, promotion, cv_download } = frontmatter;
+  const { banner, featured_posts, recent_posts, promotion, cv_download } =
+    frontmatter;
   const posts = getSinglePage(`content/${blog_folder}`);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
@@ -145,7 +208,7 @@ export const getStaticProps = async () => {
       recent_posts,
       promotion,
       categories: categoriesWithPostsCount,
-      cv_download: cv_download
+      cv_download: cv_download,
     },
   };
 };
